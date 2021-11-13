@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Clash Showcase</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+
+        .text {
+            width: 100%;
+            position: absolute;
+            top: 50px;
+
+        }
+
+        .text h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 50px;
+            margin-bottom: 16px;
+        }
+
+        .text h2 {
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+        }
+
+        .animation {
+            background: #040744;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .squares {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .squares li {
+            position: absolute;
+            list-style: none;
+            border-radius: 10%;
+            color: rgba(255, 255, 255, 0.3);
+            text-align: center;
+            vertical-align: middle;
+            background: rgba(193, 88, 88, 0.786);
+            animation: animate 5s linear infinite;
+            bottom: -150px;
+        }
+
+        .squares li:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            font-size: 25px;
+            animation-delay: 0s;
+            animation-duration: 5s;
+        }
+
+
+        .squares li:nth-child(2) {
+            left: 10%;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 6.25px;
+            animation-delay: 2s;
+            animation-duration: 6s;
+        }
+
+        .squares li:nth-child(3) {
+            left: 70%;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 6.25px;
+            animation-delay: 4s;
+        }
+
+        .squares li:nth-child(4) {
+            left: 40%;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            font-size: 18.75px;
+            animation-delay: 0s;
+            animation-duration: 10s;
+        }
+
+        .squares li:nth-child(5) {
+            left: 65%;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 6.25px;
+            animation-delay: 0s;
+        }
+
+        .squares li:nth-child(6) {
+            left: 75%;
+            width: 110px;
+            height: 110px;
+            line-height: 110px;
+            font-size: 34.375px;
+            animation-delay: 3s;
+        }
+
+        .squares li:nth-child(7) {
+            left: 35%;
+            width: 150px;
+            height: 150px;
+            line-height: 150px;
+            font-size: 46.875px;
+            animation-delay: 7s;
+        }
+
+        .squares li:nth-child(8) {
+            left: 50%;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 7.8125px;
+            animation-delay: 15s;
+            animation-duration: 20s;
+        }
+
+        .squares li:nth-child(9) {
+            left: 20%;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            font-size: 4.6875px;
+            animation-delay: 2s;
+            animation-duration: 18s;
+        }
+
+        .squares li:nth-child(10) {
+            left: 85%;
+            width: 150px;
+            height: 150px;
+            line-height: 150px;
+            font-size: 46.875px;
+            animation-delay: 0s;
+            animation-duration: 5s;
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+            100% {
+                transform: translateY(-1000px) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="animation">
+            <ul class="squares">
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+                <li> &lt;/&gt; </li>
+            </ul>
+        </div>
+        <div class="text">
+            <h1> CSS Clash Showcase </h1>
+            <h2> All Submissions will be visible here after the competition is over </h2>
+        </div>
+    </div>
+</body>
+
+</html>

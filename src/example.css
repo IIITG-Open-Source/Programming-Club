@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
   margin: 0px;
@@ -19,7 +19,7 @@ header {
 h1 {
   margin: 0px;
   font-size: 3.75rem;
-  font-family: 'Monoton', cursive;
+  font-family: 'Righteous', cursive;
   line-height: 1
 }
 
