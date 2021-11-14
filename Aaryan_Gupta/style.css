@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Praise&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;900&family=Praise&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Questrial&family=Shadows+Into+Light+Two&display=swap");
+body {
+  margin: 0px;
+  background-color: rgb(191, 219, 254);
+  font-family: system-ui, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(147, 197, 253);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(106 210 241);
+  background-image: linear-gradient(180deg, black, transparent);
+  text-align: center;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 3.75rem;
+  font-family: "Righteous", cursive;
+  line-height: 1;
+  font-family: "Cinzel Decorative", cursive;
+  background: -webkit-linear-gradient(#eee, #94c4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title > h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#eee, #94c4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    flex-direction: row;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+  }
+}
+
+.nav-button {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  flex-grow: 1;
+  border-radius: 1.45rem;
+  border-width: 0px;
+  background-color: #194680;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: "Genos", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+  color: rgb(224, 186, 228);
+  box-shadow: 0 0.5rem 0.5rem 0 #1a688e, 0 0.25rem 0.5rem rgb(15 127 161) inset,
+    0 0.25rem 0.5rem rgb(255 219 219 / 40%) inset,
+    0 0.25rem 0.5rem 0 rgb(11 153 189) inset;
+}
+
+.nav-button:hover {
+  background-color: #378ed4;
+  transform: scale(1.1);
+}
+
+@media (min-width: 640px) {
+  .nav-button {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+.main {
+  background-image: url("https://www.chromethemer.com/wallpapers/4k-wallpapers/images/blue-technology-4k-wallpaper.jpg");
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+
+#about-head {
+  background-image: linear-gradient(375deg, black, transparent);
+  text-shadow: 0px 0px 3px #ffffff;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 11px;
+  margin-top: 13px;
+  padding-left: 40px;
+}
+
+#about-content {
+  font-family: "Genos", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+#rules-head {
+  background-image: linear-gradient(375deg, black, transparent);
+  text-shadow: 0px 0px 3px #ffffff;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 11px;
+  margin-top: 13px;
+  padding-left: 50px;
+}
+#rules-list {
+  font-family: "Genos", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+.content {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+footer {
+  background-color: rgb(147, 197, 253);
+  padding: 1rem;
+  background-color: rgb(55 112 196 / 85%);
+  background-image: linear-gradient(341deg, black, transparent);
+}
+
+.IIITG-Logo > img {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .IIITG-Logo > img {
+    margin-bottom: 0px;
+    width: 70%;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  height: 3.5rem;
+  color: #ffffff;
+  fill: currentColor;
+}
+
+.icon:hover {
+  fill: currentColor;
+  color: #378ed4;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #cfcfcf;
+  border: 8px solid #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5b629e;
+  border-radius: 10px;
+  border: 0px solid #305cca;
+}

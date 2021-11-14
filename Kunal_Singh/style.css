@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 0.734);
+  font-family: system-ui, sans-serif
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(248, 245, 245);
+  text-align: center;
+  justify-content: space-between;
+}
+
+.title{
+    width: 20%;
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 2.6rem;
+  font-family: 'Righteous', cursive;
+  line-height: 1
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0px;
+  color: rgb(179, 5, 5);
+}
+
+.nav-bar {
+  display: flex;
+  width: 55%;
+  flex-direction: column;
+  justify-content:space-evenly;
+  margin-right: 3%;
+}
+.about-btn:hover{
+  color:black;
+
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    flex-direction: row
+  }
+  .main {
+    display: flex
+  }
+  #about {
+    width: 1080px
+  }
+}
+
+.nav-button {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: 1px solid rgb(184, 183, 183);
+  background-color:rgb(248, 245, 245);
+  color:grey;
+  padding-left: 4%;
+  width: 100%;
+}
+#download-btn{
+    width: 110%;
+}
+#view-btn{
+    width: 110%;
+
+}
+.nav-button:hover {
+  color: black;
+}
+
+@media (min-width: 640px) {
+  .nav-button {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.section {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 0.75rem;
+  background-color: rgb(219, 234, 254);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#rules {
+  flex-grow: 1;
+  background-color:rgb(248, 245, 245);
+}
+#rules-head{
+  font-size: 2.5rem;
+  font-family: 'Righteous', cursive;
+}
+.content {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+#about {
+    /* height: 60vh; */
+    width: 95vw;
+    /* background-image: url('https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(100%); */
+    background-color:rgb(248, 245, 245);
+}
+#about-head{
+    font-size: 2.5rem;
+     font-family: 'Righteous', cursive;
+    color: rgb(179, 5, 5);
+    margin-bottom: 1rem;
+}
+#about-content{
+  color: rgb(4, 0, 0);
+  padding-top: 30%;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(248, 245, 245);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.IIITG-Logo > img {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  width: 80%;
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-between
+  }
+  .IIITG-Logo > img {
+    margin-bottom: 0px;
+    width: 70%
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 2.5rem
+}
+
+.icon:hover {
+  fill: currentColor;
+  color: rgb(55, 65, 81)
+}

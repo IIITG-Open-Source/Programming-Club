@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Clash Showcase</title>
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
         * {
             margin: 0px;
             padding: 0px;
@@ -15,7 +17,6 @@
         body {
             font-family: sans-serif;
         }
-
 
         .text {
             width: 100%;
@@ -31,10 +32,33 @@
             margin-bottom: 16px;
         }
 
-        .text h2 {
+        .text h2, .text ul {
             text-align: center;
             color: #fff;
             font-size: 30px;
+            margin-bottom: 16px;;
+            font-family: monospace;
+        }
+
+        .text ul {
+            text-align: left;
+            padding-left: 37%;
+        }
+
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(43, 157, 183);
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Exo', monospace;
+            transition: 0.2s;
+            transition-timing-function: linear;
+            text-shadow: 0px 0px 4px #040744;
+        }
+
+        a:hover {
+            font-size: 27px;
         }
 
         .animation {
@@ -72,7 +96,6 @@
             animation-delay: 0s;
             animation-duration: 5s;
         }
-
 
         .squares li:nth-child(2) {
             left: 10%;
@@ -189,7 +212,20 @@
         </div>
         <div class="text">
             <h1> CSS Clash Showcase </h1>
-            <h2> All Submissions will be visible here after the competition is over </h2>
+            <br>
+            <div>
+                <h2> View Submission By: </h2>
+                <ul>
+                    <li> <a href="Priyanka_Kumari/index.html"> Priyanka Kumari </a></li>
+                    <li> <a href="Aayush_Barmecha/index.html"> Aayush Barmecha </a></li>
+                    <li> <a href="Keerthana_Maheshwaram/index.html"> Keerthana Maheshwaram </a></li>
+                    <li> <a href="Aaryan_Gupta/index.html"> Aaryan Gupta </a></li>
+                    <li> <a href="Chirag_Rastogi/index.html"> Chirag Rastogi </a></li>
+                    <li> <a href="Karuna_Sharma/index.html"> Karuna Sharma </a></li>
+                    <li> <a href="Shrikar_Sinha/index.html"> Shrikar Sinha </a></li>
+                    <li> <a href="Kunal_Singh/index.html"> Kunal Singh </a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
