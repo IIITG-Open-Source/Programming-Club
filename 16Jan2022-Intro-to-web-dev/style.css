@@ -1,0 +1,41 @@
+/* Element Selectors */
+h1 {
+    color: red;
+}
+h2 {
+    color: blue;
+}
+
+/* Universal selector
+* {
+    color: green;
+} */
+
+/* ID SELECTOR */
+/* #list {
+    color: blueviolet;
+} */
+
+/* Class selector */
+/* .classlist {
+    color: green;
+} */
+
+div {
+    font-weight: bold;
+}
+
+/* Selects Both */
+h1, h2 {
+    font-family: sans-serif;
+}
+
+/* Descendants selector */
+ul li {
+    color: green;
+}
+
+/* Direct Child Selector */
+ol > li {
+    color: violet;
+}
