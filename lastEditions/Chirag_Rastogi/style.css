@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Vollkorn:wght@500&display=swap");
+/* @import url("https://images.app.goo.gl/7DSeJ5b1tE3tKMLe8") */
+body {
+    margin: 2px;
+    background-image: url("https://media.istockphoto.com/photos/abstract-yellow-and-black-are-light-pattern-with-the-gradient-is-the-picture-id1322292245?b=1&k=20&m=1322292245&s=170667a&w=0&h=YzXL-A9fiTriDqZuxo4OU81M-S3A78fI0dgejzUbwJE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* .page-wrapper {
+    margin: 10px;
+} */
+
+header {
+    display: flow-root;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFnlw-fVEgWCsfBpC493rcZoNeLMRXWJxXrw&usqp=CAU");
+  background-repeat: no-repeat; */
+    background-size: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 78px;
+    font-family: "Carter One", cursive;
+    line-height: 1;
+    color: black;
+    font-stretch: expanded;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 2rem;
+    padding-bottom: 2px;
+    color: hsl(214, 99%, 31%);
+    font-family: "Carter One", cursive;
+}
+
+.nav-bar {
+    float: centre;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .nav-bar {
+        flex-direction: row;
+    }
+
+    .main {
+        display: flex;
+    }
+    #about {
+        width: 1080px;
+    }
+}
+
+.nav-button {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+
+    flex-grow: 1;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-family: "Carter One", cursive;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: azure;
+    padding: 15px 32px;
+    cursor: grab;
+    transition: width 8s, height 8s;
+}
+
+.nav-button:hover {
+    background-color: hsl(214, 99%, 31%);
+    width: 10%;
+    height: 10%;
+}
+
+@media (min-width: 640px) {
+    .nav-button {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-button {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.heading {
+    border-left: 6px solid black;
+    /* background-color: rgba(0, 0, 0, 0.26); */
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 0;
+    display: block;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#rules {
+    flex-grow: 1;
+}
+
+.content {
+    font-family: "Vollkorn", serif;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+footer {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-top: 2px solid rgb(0, 0, 0);
+    /* border-width: 6px; */
+    /* float: inline-end; */
+}
+.social {
+    /* display: inline-block; */
+    float: right;
+}
+
+.IIITG-Logo > img {
+    margin-bottom: 1rem;
+    width: 80%;
+}
+
+@media (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .IIITG-Logo > img {
+        margin-bottom: 0px;
+        width: 70%;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 3.5rem;
+    transition-duration: 1s;
+}
+
+.icon:hover {
+    fill: currentColor;
+    color: hsl(214, 99%, 31%);
+    transform: scale(1.2);
+}
