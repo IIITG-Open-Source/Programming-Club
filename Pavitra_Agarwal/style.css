@@ -1,0 +1,143 @@
+* {
+   padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight:400 ;
+   font-size:16px ;
+    line-height: 1.7;
+    /* line-gap-override: 2; */
+    color: black;
+     padding-left: 1vh; 
+     padding-right: 1vh; 
+}
+.header{
+    height: 90vh;
+background-image:linear-gradient(to right,
+#56ab2f,
+#a8e063);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+clip-path: polygon(0 0, 100% 0,100% 88%,0 100%);
+position:relative;
+
+}
+h1,h2{
+text-transform: uppercase;
+    color: rgb(255, 255, 255);
+position:absolute;
+}
+h1{
+    
+display: block;
+font-size: 3vh;
+font-weight: 500;
+letter-spacing: 3vh;
+
+top: 50%;
+left: 50%;
+transform: translate(-42%,-371%);
+
+
+}
+h2{
+    display: block;
+    font-size: 2vh;
+    font-weight:400;
+    letter-spacing: 1.7vh;
+    top: 60%;
+left: 50%;
+transform: translate(-43%,-458%);
+}
+.nav-butn{
+    top: 500px ;
+background-image: linear-gradient(#ffdd00a6,#fbaf34ab);
+ height: 15vh;
+width: 15vw;
+
+border:none;
+ clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); 
+display: block;
+
+
+transform: translate(7%,-50%);
+
+}
+
+#intro{
+position: absolute;top: 50%;
+left: 50%;
+transform: translate(-47%,83%);
+box-shadow: 9px 9px;
+}
+#front{
+    position: absolute;top: 50%;
+    left: 50%;
+    transform: translate(3%,2%);
+}
+#back{
+    position: absolute;top: 50%;
+    left: 50%;
+    transform: translate(-98%,3%);
+}
+
+
+
+ .heading
+{
+    color: rgb(224, 240, 8);
+    text-transform: uppercase;
+    letter-spacing: 1vw;
+    margin: 3%;
+    text-shadow: 2px 2px rgb(30, 255, 0);
+
+}
+#introduction .sub-head{
+   text-align: center;
+}
+#introduction p{
+    background-color: rgb(0, 0, 0);
+}
+
+#frontend .sub-head{
+background-color: rgb(159, 211, 159);
+}
+.footer{
+    background-color:rgb(38, 38, 38);
+    color: white;
+    height: 30vh;
+
+}
+.icon{
+height: 30px;
+width:30px;
+background-color: white;
+}
+.foot-btn{
+    display: table-column;
+}
+.page .section {
+ text-align:center ;
+
+}
+
+p{
+    color: white;
+    background-color:black;
+}
+
+ul{
+    background-color:(black);
+    color:white;
+}
+@keyframes type{
+    from { width: 0; opacity:1;} 
+    to { opacity:1;}
+}
+h4{
+    background-image:linear-gradient(#fdfc47 ,#24fe41);
+    animation: type 5s steps(60, end);
+}

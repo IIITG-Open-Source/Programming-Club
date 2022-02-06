@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-clash</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="body">
+    <div class="page-wrapper">
+        <header class="header">
+            <h1>Web Development</h1>
+            <h2>A Beginner's Guide</h2>
+
+            <nav class="navigation">
+                <button class="nav-butn" id="intro" onclick="window.location.href='#intoduction'">Introduction</button>
+                <button class="nav-butn" id="front" onclick="window.location.href='#frontend'">Frontend</button>
+                <button class="nav-butn" id="back" onclick="window.location.href='#backend'">Backend</button>
+            </nav>
+        </header>
+
+        <div class = "page"> 
+            <div class="section" id="introduction">
+                <h3 class="heading">Introduction</h3>
+                <h4 class="sub-head">What is Web Development</h4>
+                <p>Web development, also known as website development, refers to the tasks associated with creating,
+                    building, and maintaining websites and web applications that run online on a browser. It may,
+                    however, also include web design, web programming, and database management.</p>
+            </div>
+
+            <div class="section" id="frontend">
+                <h3 class="heading">Frontend</h3>
+                <span class="card" id="fr">
+                    <h4 class="sub-head">What is Front-end web development?</h4>
+                    <p>Front-end web development is the development of the graphical user interface of a website,
+                        through the use of HTML, CSS, and JavaScript, so that users can view and interact with that
+                        website.</p>
+                </span>
+                <span class="card" id="html">
+                    <h4 class="sub-head">HyperText Markup Language</h4>
+                    <p>HyperText Markup Language (HTML) is the backbone of any website development process, without
+                        which a web page does not exist. Hypertext means that text has links, termed hyperlinks,
+                        embedded in it. When a user clicks on a word or a phrase that has a hyperlink, it will bring
+                        another web-page. A markup language indicates text can be turned into images, tables, links, and
+                        other representations. It is the HTML code that provides an overall framework of how the site
+                        will look. HTML was developed by Tim Berners-Lee. The latest version of HTML is called HTML5 and
+                        was published on October 28, 2014 by the W3C recommendation. This version contains new and
+                        efficient ways of handling elements such as video and audio files.</p>
+                </span>
+                <span class="card" id="css">
+                    <h4 class="sub-head">Cascading Style Sheets (CSS)</h4>
+                    <p>Cascading Style Sheets (CSS) controls the presentation aspect of the site and allows your site to
+                        have its own unique look. It does this by maintaining style sheets that sit on top of other
+                        style rules and are triggered based on other inputs, such as device screen size and resolution.
+                    </p>
+                </span>
+                <span class="card" id="js">
+                    <h4 class="sub-head">JavaScript</h4>
+                    <p>JavaScript is an event-based imperative programming language (as opposed to HTML's declarative
+                        language model) that is used to transform a static HTML page into a dynamic interface.
+                        JavaScript code can use the Document Object Model (DOM), provided by the HTML standard, to
+                        manipulate a web page in response to events, like user input.
+                        Using a technique called AJAX, JavaScript code can also actively retrieve content from the web
+                        (independent of the original HTML page retrieval), and also react to server-side events as well,
+                        adding a truly dynamic nature to the web page experience.</p>
+                </span>
+            </div>
+
+            <div class="section" id="backend">
+                <h3 class="heading">Backend</h3>
+                <span class="card" id="ba">
+                    <h4 class="sub-head">What is Backend Development?</h4>
+                    <p>Back-end Development refers to the server-side development. It focuses on databases, scripting,
+                        website architecture. It contains behind-the-scene activities that occur when performing any
+                        action
+                        on a website. It can be an account login or making a purchase from an online store. Code written
+                        by
+                        back-end developers helps browsers to communicate with database information.</p>
+                </span>
+                <span class="card" id="skills">
+                    <h4>Following are the skills you require to become a back end developer:</h4>
+                    <span class="content" id="content">
+                        <ul class="list" id="list">
+                            <li> Web Development Languages </li>
+                            <li> Database and Cache </li>
+                            <li> Server </li>
+                            <li> API (REST & SOAP) </li>
+                        </ul>
+                    </span>
+                </span>
+                <span class="segment" id="lan">
+                    <h4 class="sub-head">Web Development Languages:</h4>
+                    <p>Backend engineer should know at least one server-side or Backend programming language like Java,
+                        Python, Ruby, . Net etc.</p>
+                </span>
+                <span class="segment" id="db">
+                    <h4 class="sub-head">Database and Cache:</h4>
+                    <p>Knowledge of various DBMS technology is one of the important Backend developer skills. MySQL,
+                        MongoDB, Oracle, SQLServer, Redis are widely used for this purpose. Knowledge of caching
+                        mechanisms
+                        like varnish, Memcached, Redis is a plus.</p>
+                </span>
+                <span class="segment" id="server">
+                    <h4 class="sub-head">Server:</h4>
+                    <p>Exposure to handling Apache, Nginx, IIS servers, Microsoft IIS is desirable. A good background in
+                        Linux helps tremendously in administering servers.</p>
+                </span>
+                <span class="segment" id="api">
+                    <h4 class="sub-head">API (REST & SOAP):</h4>
+                    <p>Knowledge of web services or API is also important for full stack developers. Knowledge of
+                        creations
+                        and consumption of REST and SOAP services is desirable.</p>
+                </span>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="foot1">
+                <button class="foot-btn" id="download-btn"
+                    onclick="window.location.href='https://github.com/IIITG-Open-Source/Programming-Club/blob/CSS-Clash/src/index.html'">
+                    Download HTML
+                </button>
+                <button class="foot-btn" id="submit-btn"
+                    onclick="window.location.href='https://forms.gle/AMfRjHu1qQg8kDHo6'">
+                    Submit
+                </button>
+                <button class="foot-btn" id="view-btn"
+                    onclick="window.location.href='https://iiitg-open-source.github.io/Programming-Club/'">
+                    View Submissions
+                </button>
+            </div>
+            <div class="foot2">
+                <!-- <a href="http://iiitg.ac.in/index.php" class="IIITG-Logo" id="IIITG-Logo"><img
+                        src="http://iiitg.ac.in/header.svg" alt="IIITG Logo"></a> -->
+                <div class="social" id="social">
+                    <a href="https://www.instagram.com/pc_iiitg/" class="social-button" id="instagram">
+                        <svg class="icon" id="insta-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/IIITG-Open-Source" class="social-button" id="github">
+                        <svg class="icon" id="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+header {
+  background-color:rgb(221, 20, 20);
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.page-wrapper {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+h1 .heading {
+  font-family: "Supermercado One";
+}
+
+.heading {
+    font-size: 28px;
+    color: red;
+}
+
+.sub-head {
+    font-size: 18px;
+    color:orangered;
+}
+
+.navigation {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.nav-butn {
+  font-size: 16px;
+  padding: 5px 14px;
+  border:black;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: black;
+color: white;
+}
+
+.nav-butn:hover {
+  background-color: green;
+  color:black;
+}
+.nav-butn:visited{
+  color:yellow ;
+}
+
+p {
+    color: black;
+}
+
+.page {
+    padding-left: 20%;
+    padding-right: 5%;
+}
+
+footer{
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5%;
+}
+
+.foot-btn {
+    margin: 2px 8px;
+    font-size: 16px;
+  padding: 5px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color:rgb(255, 0, 13) ;
+  
+
+}
+.foot-btn:hover{
+  color: orange;
+}
+.foot-btn:visited{
+  color:palegreen ;
+}
+
+.icon {
+    height: 40px;
+    padding: 10px;
+    color: red;
+    margin-top: 4px;
+    border: black;
+}.social{
+  background-color: white;
+  border: black;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+h4{
+  color: orangered;
+}
+#list{
+  list-style-type:square;
+}
+
