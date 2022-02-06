@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Red+Hat+Mono:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&family=Zen+Antique&display=swap');
+
+body{
+    background-color: rgb(255, 230, 194);
+    
+}
+
+header {
+  
+  background: rgb(174,238,192);
+  background: radial-gradient(circle, rgba(174,238,192,1) 0%, rgba(172,148,233,1) 100%);
+  color: rgb(180, 135, 222);
+  width: 100%;
+  border: rgb(231, 166, 68);
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+
+h1, .heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.04em;
+  color: rgb(1, 20, 19);
+  text-shadow:1px 3px 3px rgb(68, 22, 235);
+  padding-top: 1.5rem;
+}
+
+.heading {
+    font-size: 2rem;
+}
+.card{
+    color:#191a19;
+}
+.section1,.section2{
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(174,238,192);
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sub-head {
+    font-size: 1.5rem;
+    color: rgb(0, 110, 255);
+    font-weight:bolder;
+    letter-spacing: 0.5px;
+    
+}
+
+.navigation {
+  width: 40rem;
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 1rem;
+  
+}
+
+.nav-butn {
+  font-size: 1em;
+  padding: 0.5em 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  background-color: rgb(186, 124, 236);
+}
+
+.nav-butn:hover {
+  background-color: rgb(55, 216, 189);
+  color: white;
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  
+}
+
+p {
+    color:#58044a;
+    font-family: 'Ubuntu', sans-serif;
+    text-indent: 2.5rem;
+}
+
+.section {
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: rgb(245,176,240);
+    background: linear-gradient(0deg, rgba(245,176,240,1) 0%, rgba(173,216,235,1) 70%, rgba(230,206,156,1) 100%);
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 8px 5% ;
+    margin-top: 1%;
+}
+
+.foot-btn {
+    margin: 2px 8px;
+    font-size: 16px;
+  padding: 5px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+
+}
+
+.foot-btn:hover {
+  background-color: rgb(55, 216, 189);
+  color: white;
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  
+}
+
+.icon {
+    height: 40px;
+    padding: 0 6px;
+}
+
+.icon:hover{
+  transform: scale(1.2,1.2);
+}
+
+@media screen and (max-width: 500px){
+    
+    h1, .heading {
+      font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 3rem;
+        color: white;
+        padding-top: 1.5rem;
+      }
+    
+.navigation {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .nav-butn {
+    font-size: 0.6em;
+    padding: 0.5em 0.5em;
+    margin: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .nav-butn:hover {
+    background-color: rgb(55, 216, 189);
+    color: white;
+    
+  }
+  .foot-btn {
+    margin: 2px 8px;
+    font-size: 16px;
+  padding: 5px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.596);
+  color: white;
+
+}
+
+.foot-btn:hover {
+  background-color: rgb(55, 216, 189);
+  color: white;
+  transform: scale(1.2,1.2);
+  transition-duration: 0.5s;
+  
+}
+}
+@media screen and (max-width: 300px){
+    
+  h1, .heading {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 2rem;
+      color: white;
+      padding-top: 1.5rem;
+    }
+    .sub-head {
+      font-size: 1.4rem;
+      color: rgb(0, 110, 255);
+      font-weight:bolder;
+      letter-spacing: 0.5px;
+  }    
+  
+.navigation {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-butn {
+  font-size: 0.4em;
+  padding: 0.5em 0.5em;
+  margin: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.nav-butn:hover {
+  background-color:  rgb(55, 216, 189);
+  color: white;
+  
+}
+
+}
