@@ -64,8 +64,11 @@
 
         .animation {
             background: #040744;
-            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
             height: 100vh;
+            width: 100vw;
         }
 
         .squares {
@@ -191,14 +194,6 @@
             100% {
                 transform: translateY(-1000px) rotate(360deg);
             }
-        }
-
-        .animation {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 100vh;
-            width: 100vw;
         }
     </style>
 </head>
