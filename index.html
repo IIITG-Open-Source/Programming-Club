@@ -55,11 +55,38 @@
             transition: 0.2s;
             transition-timing-function: linear;
             text-shadow: 0px 0px 4px #040744;
-            margin-left: 10%;
+            margin-left: 36px;
         }
 
         a:hover {
             font-size: 27px;
+        }
+
+        .red, .gold {
+            height: 24px;
+            width: auto;
+            margin-right: -24px;
+        }
+
+        .submission {
+            display: flex;
+            align-items: center;
+            margin-top: 4px;
+        }
+
+        .red {
+            color: crimson;
+        }
+
+        .gold {
+            color: goldenrod;
+        }
+
+        .silver {
+            height: 20px;
+            width: auto;
+            margin-right: -20px;
+            color: rgba(163, 163, 163, 0.7);
         }
 
         .animation {
@@ -69,6 +96,12 @@
             left: 0;
             height: 100vh;
             width: 100vw;
+        }
+
+        @media screen and (max-width: 640px) {
+            .squares {
+                display: none;
+            }
         }
 
         .squares {
@@ -149,10 +182,10 @@
         }
 
         .squares li:nth-child(7) {
-            left: 35%;
-            width: 150px;
-            height: 150px;
-            line-height: 150px;
+            left: 20%;
+            width: 120px;
+            height: 120px;
+            line-height: 120px;
             font-size: 46.875px;
             animation-delay: 7s;
         }
@@ -223,21 +256,56 @@
                 <!-- <h2> All submissions will be visible after the contest ends </h2> -->
                 <h2> View Submission By: </h2>
                 <ul>
-                    <li> <a href="Prashant_Kumar_Jha/index.html"> Prashant Kumar Jha </a></li>
-                    <li> <a href="Vishal_Kumar_Prajapati/index.html"> Vishal Kumar Prajapati </a></li>
-                    <li> <a href="Satya/index.html"> Satya </a></li>
-                    <li> <a href="Vamshi_Nayak/index.html"> Vamshi Nayak </a></li>
-                    <li> <a href="Malthummeda_Yogita/index.html"> Malthummeda Yogita </a></li>
-                    <li> <a href="Rishabh_Dev/index.html"> Rishabh Dev </a></li>
-                    <li> <a href="Ankit_Kumar/index.html"> Ankit Kumar </a></li>
+                    <li>
+                        <span class="submission"> <svg xmlns="http://www.w3.org/2000/svg" class="red" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <a href="Vamshi_Nayak/index.html"> Vamshi Nayak </a></span> 
+                    </li>
+                    <li>
+                        <span class="submission"> <svg xmlns="http://www.w3.org/2000/svg" class="red" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <a href="Rishabh_Dev/index.html"> Rishabh Dev </a></span>
+                    </li>
+                    <li>
+                        <span class="submission"> <svg xmlns="http://www.w3.org/2000/svg" class="gold" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <a href="Shikhar_Barthwal/index.html"> Shikhar Barthwal </a></span>
+                    </li>
+                    <li>
+                        <span class="submission"> <svg xmlns="http://www.w3.org/2000/svg" class="gold" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <a href="Aayush_Barmecha/index.html"> Aayush Barmecha </a></span>
+                    </li>
+                    <li>
+                        <span class="submission"> <svg xmlns="http://www.w3.org/2000/svg" class="gold" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <a href="Ankit_Kumar/index.html"> Ankit Kumar </a></span>
+                    </li>
+                    <li>
+                        <span class="submission"> <svg xmlns="http://www.w3.org/2000/svg" class="silver" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <a href="Anant_Sharma/index.html"> Anant Sharma </a></span>
+                    </li>
+                    <li>
+                        <span class="submission"> <svg xmlns="http://www.w3.org/2000/svg" class="silver" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <a href="Himanshu_Srivastava/index.html"> Himanshu Srivastava </a></span>
+                    </li>
                     <li> <a href="Harish_Goud/index.html"> Harish Goud </a></li>
-                    <li> <a href="Prince_Kumar/index.html"> Prince Kumar </a></li>
-                    <li> <a href="Anant_Sharma/index.html"> Anant Sharma </a></li>
-                    <li> <a href="Shikhar_Barthwal/index.html"> Shikhar Barthwal </a></li>
-                    <li> <a href="Pavitra_Agarwal/index.html"> Pavitra Agarwal </a></li>
-                    <li> <a href="Aayush_Barmecha/index.html"> Aayush Barmecha </a></li>
-                    <li> <a href="Himanshu_Srivastava/index.html"> Himanshu Srivastava </a></li>
                     <li> <a href="Harshvardhan/index.html"> Harshvardhan </a></li>
+                    <li> <a href="Satya/index.html"> Satya </a></li>
+                    <li> <a href="Malthummeda_Yogita/index.html"> Malthummeda Yogita </a></li>
+                    <li> <a href="Pavitra_Agarwal/index.html"> Pavitra Agarwal </a></li>
+                    <li> <a href="Prince_Kumar/index.html"> Prince Kumar </a></li>
+                    <li> <a href="Vishal_Kumar_Prajapati/index.html"> Vishal Kumar Prajapati </a></li>
+                    <li> <a href="Prashant_Kumar_Jha/index.html"> Prashant Kumar Jha </a></li>
                 </ul>
             </div>
 
